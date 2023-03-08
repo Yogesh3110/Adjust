@@ -1,13 +1,10 @@
 # Adjust
 
-**
-#============================================
-#Error:Currently the code is not working and I am still trying to debug this code. 
-#postgres=# create extension min_to_max ;
-#ERROR: incompatible library "/var/lib/pgsql/adjust/min_to_max/min_to_max.so": version mismatch DETAIL: Server is version 13, library is version 9.2. postgres=#.
-#============================================
-
-**
+/*
+Error:Currently the code is not working and I am still trying to debug this code. 
+postgres=# create extension min_to_max ;
+ERROR: incompatible library "/var/lib/pgsql/adjust/min_to_max/min_to_max.so": version mismatch DETAIL: Server is version 13, library is version 9.2. postgres=#.
+*/
 
 To create an aggregate function that returns a text formatted as "min -> max" for a given column, we can follow these steps:
 
