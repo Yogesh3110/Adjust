@@ -1,5 +1,0 @@
-# min_to_max extension
-comment = 'Extension that defines a custom aggregate function that returns a text formatted as "min -> max" for a given integer column'
-default_version = '1.0'
-module_pathname = '$libdir/min_to_max'
-
